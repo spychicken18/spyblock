@@ -1,0 +1,1 @@
+advancement grant @s only minecraft:story/follow_ender_eye

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#P#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:golden_apple"
+		},
+		"P": {
+			"item": "minecraft:potion",
+			"nbt": "{Potion:\"minecraft:strong_regeneration\"}"
+		}
+	},
+	"result": {
+		"item": "minecraft:enchanted_golden_apple",
+		"count": 1
+	}
+}

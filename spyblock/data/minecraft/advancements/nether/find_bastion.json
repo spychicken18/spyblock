@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:polished_blackstone_bricks"
+		},
+		"title": {
+			"translate": "advancements.nether.find_bastion.title"
+		},
+		"description": {
+			"text": "No bastion on this map, but you can hold the building material!",
+			"color": "yellow"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:nether/root",
+	"criteria": {
+		"blackstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:polished_blackstone_bricks",
+						"count": {
+							"min": 1,
+							"max": 9999
+						}
+					}
+				]
+			}
+		}
+	}
+}

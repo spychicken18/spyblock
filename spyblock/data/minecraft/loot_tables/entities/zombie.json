@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "vanilla:entities/zombie"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gravel",
+					"weight": 1
+				}
+			],
+			"conditions": [
+				{
+					"condition": "random_chance",
+					"chance": 0.5
+				}
+			]
+		}
+	]
+}

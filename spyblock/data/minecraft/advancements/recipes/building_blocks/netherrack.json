@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"minecraft:netherrack"
+		]
+	},
+	"criteria": {
+		"has_nether_wart_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:nether_wart_block"
+					}
+				]
+			}
+		},
+		"has_soul_sand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:soul_sand"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:netherrack"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_nether_wart_block",
+			"has_soul_sand",
+			"has_the_recipe"
+		]
+	]
+}

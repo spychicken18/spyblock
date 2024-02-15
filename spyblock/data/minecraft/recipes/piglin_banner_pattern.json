@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:paper",
+			"count": 1
+		},
+		{
+			"item": "minecraft:chiseled_polished_blackstone",
+			"count": 1
+		}
+	],
+	"result": {
+		"item": "minecraft:piglin_banner_pattern",
+		"count": 1
+	}
+}
